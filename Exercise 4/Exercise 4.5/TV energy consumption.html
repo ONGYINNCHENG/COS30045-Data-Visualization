@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Story - Appliance Energy Consumption</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation (完全沿用你的主页 navbar 结构) -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="index.html">
+          <img src="assets/img/PowerIcon.png" alt="Power Logo" class="nav-logo">
+          <span>Appliance Energy</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="televisions.html">Televisions</a></li>
+        <li><a href="TV energy consumption.html" class="active">Data Story</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- 1. Hero Split (完全沿用你的 hero-split, hero-text, hero-image-box 结构) -->
+    <section class="hero-split">
+      <div class="hero-text">
+        <span class="badge-tag">&#9679; DATA STORY</span>
+        <h1>Do You Know What TV Size Actually Suits Your Home?</h1>
+        <p>
+          Most consumers choose a television size purely based on room dimensions or sales budgets, without considering ongoing power bills. Understanding the link between screen size, display technology, and annual electricity use is key to making an informed long-term choice.
+        </p>
+      </div>
+      <div class="hero-image-box">
+        <img src="assets/img/images_electric.jpg" alt="TV Energy Footprint" class="hero-img">
+      </div>
+    </section>
+
+    <!-- 2. Demonstrate Issue (标准的 card 布局) -->
+    <section class="card">
+      <h2>Demonstrate Issue: The Market Landscape</h2>
+      <p>
+        While 55" to 65" TVs from major brands like Samsung represent the bulk of consumer options, purchasing choices remain largely dictated by size, price, and visual appeal rather than energy efficiency.
+      </p>
+      
+      <!-- 市场占比与尺寸分布图表展示 -->
+      <div class="hero-split">
+        <div class="hero-image-box">
+          <img src="assets/img/TVBrand.png" alt="Pie Chart: Market Share by Brand" class="hero-img">
+        </div>
+        <div class="hero-image-box">
+          <img src="assets/img/size_distribution.png" alt="Histogram: Size Distribution" class="hero-img">
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Describe the Approach -->
+    <section class="card">
+      <h2>Describe the Approach: Analyzing Size vs. Consumption</h2>
+      <p>
+        If consumers can visualize how power demand shifts across different screen dimensions, they can anticipate utility expenses prior to purchasing. Plotting screen size directly against yearly energy consumption (kWh/year) highlights a persistent upward trend: physical screen expansion substantially drives up annual electricity requirements.
+      </p>
+      <div class="chart-box chart-portrait">
+        <img src="assets/img/Size vs Energy.png" alt="Scatter Plot: Size vs Energy">
+      </div>
+    </section>
+
+    <!-- 4. Show the Evidence -->
+    <section class="card">
+      <h2>Show the Evidence: The Size Tier Multiplier</h2>
+      <p>
+        Grouping television models into Small, Medium, and Large categories reveals that energy usage approximately doubles across each tier jump. Purchasing a larger screen not only incurs a steeper upfront retail cost, but also permanently increases household operational overhead every year.
+      </p>
+      <div class="chart-box">
+        <img src="assets/img/Small vs Medium vs Large.png" alt="Bar Chart: Small vs Medium vs Large">
+      </div>
+    </section>
+
+    <!-- 5. Technology Matters Too -->
+    <section class="card">
+      <h2>Technology Matters Too: Display Panel Architecture</h2>
+      <p>
+        Screen dimensions alone do not tell the complete story. Differing display panel technologies—including conventional LCD, LED-backlit LCD, and OLED—exhibit distinct operational energy characteristics even when comparing identical screen sizes.
+      </p>
+      <div class="chart-box">
+        <img src="assets/img/LED vs OLED.png" alt="Bar Chart comparing LCD / LED / OLED">
+      </div>
+    </section>
+
+    <!-- 6. Recommendation & Takeaway -->
+    <section class="card">
+      <h2>Recommendation: Sustainable Home Entertainment</h2>
+      <p>
+        Before settling on a new television, evaluate whether the screen size truly matches your seating distance and living room layout. Checking both certified Energy Star ratings and panel backlighting types ensures you achieve optimal picture quality without unneeded inflation to your yearly electricity bills.
+      </p>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>&copy; 2026 <strong>Ong Yinn Cheng</strong> | COS30045 Data Visualisation</p>
+    <p class="texttext">Generative AI was used to assist with styling and JavaScript logic.</p>
+  </footer>
+
+  <script src="assets/js/scriptjs.js"></script>
+</body>
+</html>
