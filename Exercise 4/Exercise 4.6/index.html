@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Appliance Energy Consumption</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <!-- Click Logo back to home -->
+        <a href="index.html">
+          <img src="assets/img/PowerIcon.png" alt="Power Logo" class="nav-logo">
+          <span>Appliance Energy</span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="televisions.html">Televisions</a></li>
+        <li><a href="TV energy consumption.html">TV energy consumption</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Split Hero Section -->
+    <section class="hero-split">
+      <!-- Left Column: Text Content -->
+      <div class="hero-text">
+        <span class="badge-tag">&#9679; FEATURED REPORT</span>
+        <h1>Australian Household Appliance Energy Guide</h1>
+        <p>
+          In Australia, household appliances account for approximately 30% of total domestic energy usage. Choosing energy-efficient models helps reduce electricity bills and lower greenhouse gas emissions.
+        </p>
+      </div>
+
+      <!-- Right Column: Image Container -->
+      <div class="hero-image-box">
+        <img src="assets/img/images_electric.jpg" alt="Energy Efficient Appliances" class="hero-img">
+      </div>
+    </section>
+
+    <!-- Overview Card -->
+    <section class="card">
+      <h2>Australian Market Energy Overview</h2>
+      <p>
+        Under the Energy Rating System in Australia, appliances such as refrigerators, air conditioners, and TVs carry star rating labels. 
+        The more stars an appliance has, the more energy-efficient it is compared to other models of the same size.
+      </p>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="card">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      
+      <div class="accordion">
+        <div class="accordion-item">
+          <button type="button" class="accordion-header">
+            <span>What is the Australian Energy Rating Label?</span>
+            <span>+</span>
+          </button>
+          <div class="accordion-content">
+            <p>The Energy Rating Label helps Australian consumers compare the energy efficiency and running costs of appliances before making a purchase.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button type="button" class="accordion-header">
+            <span>How can I reduce standby power consumption?</span>
+            <span>+</span>
+          </button>
+          <div class="accordion-content">
+            <p>You can reduce standby power (phantom load) by turning appliances completely off at the power point when they are not in use.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button type="button" class="accordion-header">
+            <span>Which home appliances consume the most energy?</span>
+            <span>+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Heating and cooling systems, water heaters, and large refrigerators generally account for the largest share of household electricity usage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card">
+      <div class="responsive-svg-container">
+        <h2>D3 Bar Chart</h2>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 <strong>Ong Yinn Cheng</strong> | COS30045 Data Visualisation</p>
+    <p class="texttext">Generative AI was used to assist with styling and JavaScript logic.</p>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="assets/js/scriptjs.js"></script>
+
+</body>
+</html>
