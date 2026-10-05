@@ -1,0 +1,56 @@
+/* Responsive container of the svg element */
+
+.responsive-svg-container {
+
+    width: 100%;
+
+    max-width: 1000px;
+
+  }
+
+  @media screen and (max-width: 596px) {
+
+    .responsive-svg-container {
+
+      margin-bottom: 20px;
+
+    }
+
+  }
+
+
+ 
+
+.axis-label {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+
+    fill: #5a3e2b; /* Dark brown */
+
+}
+
+
+#filters_screen {
+  margin-bottom: 12px;
+}
+
+#filters_screen .filter {
+  background-color: #d97706;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#filters_screen .filter.active {
+  background-color: #fde68a;
+  color: #b45309;
+} 
+
+/* Code based on Dufour and Meeks (2024) */
